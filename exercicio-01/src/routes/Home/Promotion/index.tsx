@@ -1,7 +1,19 @@
+import Button from "../../../components/Button";
+import Card from "../../../components/Card";
+
 export default function Promotion() {
   return (
     <main>
-      <h2>Página de promoção</h2>
+      <section>
+        <div className="container">
+          <div className="mt-30 mb-30">
+            <Card title="Página de promoção" />
+          </div>
+          <div className="dflex">
+            <Button text="Quero participar" />
+          </div>
+        </div>
+      </section>
     </main>
-  )
+  );
 }
