@@ -9,3 +9,17 @@ header {
 .site-title {
   font-size: 20px;
 }
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link-active {
+  font-weight: 700;
+}
